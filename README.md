@@ -1,5 +1,5 @@
-# GGML#
+# NScript.NN.GGML
 
-Port of [GGML](https://github.com/ggerganov/ggml) to C#.
+forked from [kant2002/GGMLSharp](https://github.com/kant2002/GGMLSharp)
 
-Yeah, I know, it seems to be C# community is just trying to catch wind as always. But why not.
+在 GGMLSharp 基础上构建的底层神经网络推理库。

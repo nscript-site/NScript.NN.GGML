@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\GGMLSharp\GGMLSharp.csproj" />
+      <ProjectReference Include="..\..\src\NScript.NN.GGML\NScript.NN.GGML.csproj" />
     </ItemGroup>
 
 </Project>

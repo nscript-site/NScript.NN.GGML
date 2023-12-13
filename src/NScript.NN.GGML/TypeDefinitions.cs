@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace GGMLSharp;
+namespace NScript.NN.GGML;
 
 [InlineArray(64 /*GGML_MAX_CONTEXTS*/)]
 public struct Buffer64<T>

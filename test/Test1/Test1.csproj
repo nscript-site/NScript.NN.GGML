@@ -9,10 +9,6 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\GGMLSharp\GGMLSharp.csproj" />
-  </ItemGroup>
-
   <Target Name="MakeLargeStackSize" AfterTargets="_CreateAppHost" BeforeTargets="_CopyOutOfDateSourceItemsToOutputDirectory">
 
     <ItemGroup>
@@ -28,6 +24,10 @@
     <Message Text="Found editbin.exe at $(EditBinPath)" />
     <Exec Command="&quot;$(EditBinLocation)&quot; /STACK:4000000 &quot;$(AppHostIntermediatePath)&quot;" />
   </Target>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\NScript.NN.GGML\NScript.NN.GGML.csproj" />
+  </ItemGroup>
 
 
 </Project>

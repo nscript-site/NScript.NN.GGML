@@ -1,6 +1,6 @@
-﻿using GGMLSharp;
+﻿using NScript.NN.GGML;
 using System.Diagnostics;
-using static GGMLSharp.Ggml;
+using static NScript.NN.GGML.Ggml;
 
 ulong next = 1;
 int RAND_MAX = 32767;
